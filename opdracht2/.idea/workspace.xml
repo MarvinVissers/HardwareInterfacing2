@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1kEZT8NvmgJIF9Pu01urfMPXJPU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,7 +34,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Debug Boebot" type="Remote">
-      <module name="opdracht2" />
+      <module name="Opdracht2" />
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" />
