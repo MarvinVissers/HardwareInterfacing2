@@ -1,56 +1,79 @@
 import TI.BoeBot;
+import TI.PWM;
 import TI.PinMode;
 
 public class RobotMain {
 
+//    /**
+//     * Opdracht 1 - A/B
+//     */
+//    public static void main(String[] args) {
+//
+//        int iLed = 10;
+//
+//        PWM pwm = new PWM(iLed, 4);
+//        pwm.start();
+//
+//        while (true) {
+//            BoeBot.wait(100);
+//        }
+//    }
+
+    /**
+     * Opdracht 1 - C
+     */
     public static void main(String[] args) {
-        // Status aanmaken om oneindige loop te maken
-        boolean state = true;
 
-        // Oneindige loop
+        // Variabele aanmaken voor de led en de felheid van de led
+        int iLed = 10;
+        int iFelheid = 4;
+
+        // Variabele of de teller omhoog of omlaag moet
+        Boolean bFeller = true;
+
+        // Dimmer aanmaken en starten
+        PWM pwm = new PWM(iLed, iFelheid);
+        pwm.start();
+
         while (true) {
-            /**
-             * Opdracht 1 - A
-             */
-//            // Led aanzetten en dan 1 seconde wachten
-//            controlLed(1000, true);
-//            // Led uitzetten en dan 1 seconde wachten
-//            controlLed(1000, false);
+            // Led felheid updaten
+            bFeller = controlLed(pwm, iFelheid, bFeller);
 
-            /**
-             * Opdracht 1 - B
-             */
-//            // Led aanzetten en dan 1 seconde wachten
-//            controlLed(1000, true);
-//            // Led uitzetten en dan 2 seconde wachten
-//            controlLed(2000, false);
+            // Kijken om er omhoog of omlaag geteld moet worden
+            if (bFeller) {
+                // Felheid omhoog doen
+                iFelheid++;
+            } else {
+                // Felheid omlaag doen
+                iFelheid--;
+            }
 
-            /**
-             * Opdracht 1 - C
-             */
-            // Led aanzetten en dan 0.1 seconde wachten
-            controlLed(100, true);
-            // Led uitzetten en dan 2 seconde wachten
-            controlLed(100, false);
-
-            /**
-             * Opdracht 1 - D
-             */
-//            // Led aanzetten en dan 0.1 seconde wachten
-//            controlLed(13, true);
-//            // Led uitzetten en dan 2 seconde wachten
-//            controlLed(13, false);
+            // Boeboet even laten wachten
+            BoeBot.wait(8);
         }
     }
 
     /**
-     * Functie om led aan en uit te zetten
-     * @param iWait tijd die de tijd aan of uit staat
-     * @param bStatus true om de led aan te zetten en false om deze uit te zetten
+     * Functie om de led van felheid te laten veranderen
+     * @param pwm de dimmer
+     * @param iFelheid de felheid van de lamp
+     * @param bFeller of de teller omhoog of omlaag is
+     * @return de nieuwe waarde van bFeller
      */
-    private static void controlLed(int iWait, boolean bStatus) {
-        // Led status veranderen en wachten tot timer is afgelopen
-        BoeBot.digitalWrite(10, bStatus);
-        BoeBot.wait(iWait);
+    private static boolean controlLed(PWM pwm, int iFelheid, boolean bFeller) {
+        // Felheid updaten
+        pwm.update(iFelheid);
+
+        // Kijken of de led op max felheid zit
+        if (bFeller && iFelheid == 255) {
+            // Teller omlaag laten gaan
+           bFeller = false;
+        } else if (!bFeller && iFelheid == 4) {
+            // Teller omhoog laten gaan
+            bFeller = true;
+        }
+
+        // Teller terug geven
+        return bFeller;
     }
 }

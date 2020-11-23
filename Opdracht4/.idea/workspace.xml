@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f37f1a84-c5f1-4621-8d9c-cc04cacf9c9c" name="Default Changelist" comment="" />
+    <list default="true" id="f37f1a84-c5f1-4621-8d9c-cc04cacf9c9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Opdracht1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdracht1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdracht1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht1/Opdracht1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht1/out/production/Test2/RobotMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht1/src/RobotMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdracht1/src/RobotMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdracht2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdracht2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht2/Opdracht2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht2/src/RobotMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdracht2/src/RobotMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht3/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht3/.idea/libraries/BoeBotLib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht3/Opdracht3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht3/lib/BoeBotLib.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht3/out/production/Opdracht3/RobotMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht3/src/RobotMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Opdracht4/RobotMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RobotMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RobotMain.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +38,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1kErcLGaBu8Ln4GX0XVG35qIDYm" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kYAa8BYZRKSFJ3FfGkMGsAwr0U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,7 +52,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541164853887" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Opdracht2" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -51,8 +79,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541164839262</updated>
-      <workItem from="1605276680288" duration="983000" />
-      <workItem from="1605518864613" duration="28000" />
+      <workItem from="1605867214868" duration="4924000" />
+      <workItem from="1606128727200" duration="20000" />
+      <workItem from="1606128766215" duration="10000" />
     </task>
     <servers />
   </component>
@@ -60,18 +89,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="104" key="FileChooserDialogImpl" timestamp="1605518889816">
+    <state x="462" y="104" key="FileChooserDialogImpl" timestamp="1606128774392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605518889816" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1605518866191">
+    <state x="462" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606128774392" />
+    <state x="65" y="65" key="new project wizard" timestamp="1605872139072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1605518866191" />
-    <state x="65" y="65" key="new project wizard" timestamp="1605518891337">
+    <state x="65" y="65" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1605872139072" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605871395537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="65" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1605518891337" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605871395537" />
   </component>
   <component name="masterDetails">
     <states>
