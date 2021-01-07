@@ -24,7 +24,9 @@ public class RobotMain {
             BoeBot.wait(1);
 
             // Kijken of de BoeBot te ver naar rechts gaat
-            if (((iSensor1 >= iSensorSensitivity) && (iSensor2 <= iSensorSensitivity) && (iSensor3 <= iSensorSensitivity)) || ((iSensor1 >= iSensorSensitivity) && (iSensor2 >= iSensorSensitivity) && (iSensor3 <= iSensorSensitivity))) {
+            if (((iSensor1 >= iSensorSensitivity) && (iSensor2 <= iSensorSensitivity) && (iSensor3 <= iSensorSensitivity)) || ((iSensor1 >= iSensorSensitivity) 
+                                                                                                                               && (iSensor2 >= iSensorSensitivity) 
+                                                                                                                               && (iSensor3 <= iSensorSensitivity))) {
                 System.out.println("Ga naar rechts");
                 // BoeBot terugzetten naar standaard snelehid
                 sLinks.update(iStandaardSnelheid);
@@ -34,7 +36,9 @@ public class RobotMain {
                 sRechts.update(iStandaardSnelheid + iRijSnelheid);
             }
             // Kiijken of de BoeBot te ver naar links gaat
-            else if (((iSensor1 <= iSensorSensitivity) && (iSensor2 <= iSensorSensitivity) && (iSensor3 >= iSensorSensitivity)) || ((iSensor1 <= iSensorSensitivity) && (iSensor2 >= iSensorSensitivity) && (iSensor3 >= iSensorSensitivity))) {
+            else if (((iSensor1 <= iSensorSensitivity) && (iSensor2 <= iSensorSensitivity) && (iSensor3 >= iSensorSensitivity)) || ((iSensor1 <= iSensorSensitivity) 
+                                                                                                                                    && (iSensor2 >= iSensorSensitivity) 
+                                                                                                                                    && (iSensor3 >= iSensorSensitivity))) {
                 System.out.println("Ga naar links");
                 // BoeBot terugzetten naar standaard sneleheid
                 sLinks.update(iStandaardSnelheid);
