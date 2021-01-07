@@ -7,15 +7,15 @@ public class RobotMain {
 
     public static void main(String[] args) {
 
+        // Variabele voor de Servo motoren aanmaken
         Servo sLinks = new Servo(12);
         Servo sRechts = new Servo(13);
 
-//        sLinks.update(1399);
-//        sRechts.update(1591);
-
         while (true) {
-            sLinks.update(1400);
-            sRechts.update(1675);
+            // Maximale snelheid van de Servo motoren
+            sLinks.update(1300);
+            sRechts.update(1700);
+            
             BoeBot.wait(1);
         }
     }
